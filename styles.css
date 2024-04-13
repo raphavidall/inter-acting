@@ -1,0 +1,203 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+}
+
+header, .titulo-logo{
+    background-color: #333;
+    height: 100px;
+    margin-left: 65px;
+}
+
+.capa{
+    background-color: #9e6df7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text-capa{
+    display: flex;
+    flex-direction: column;
+}
+.span-titulo-capa-1{
+    color: white;
+    font-size: 180%;
+
+}
+
+.span-titulo-capa-2{
+    color: #0056b3;
+    font-size: 180%;
+}
+
+.span-capa{
+    color: #521887;
+    font-size: 150%;
+    
+}
+
+.span-capa-2{
+    color: #521887;
+    font-size: 180%;
+    background-color: white;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.imagem-capa{
+    padding: 30px;
+    
+}
+
+.banner-dados{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imagem-dados{
+    padding: 30px
+}
+
+.text-dados{
+    max-width: 30%;
+    text-align: justify;
+}
+
+.span-dados-1{
+    font-size: 120%;
+    color: white;
+   background-color: #9e6df7;
+   border-radius: 5px;
+   padding: 5px;
+   line-height: 45px;
+}
+
+.banner-apresentacao{
+    background-color: #521887;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.frase-apresentacao{
+    font-size: 200%;
+}
+
+.span-apresentacao-1{
+    color: white;
+    font-size: 120%;
+}
+
+.span-apresentacao-2{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.imagem-apresentacao{
+    padding: 30px;
+}
+
+.apresentacao-beneficios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: start;
+    max-width: 30%;
+}
+
+.titulo-beneficio{
+    color: white;
+    font-size: 110%;
+}
+
+.paragrafo-beneficio{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form_incricao{
+    background-color: #521887;
+}
+
+.conclusao{
+   background-color: #9e6df7;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.titulo-conclusao{
+    text-align: center;
+    color: white;
+}
+
+.conclusoes{
+    background-color: #521887;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+}
+
+.imagem-conclusao{
+    padding: 30px;
+}
+
+.text-conclusao{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    background-color: #521887;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo-form{
+    background-color: #fff;
+    color: #521887;
+    border-radius: 10px;
+    align-content: center;
+    padding: 15px;
+}
+
+.email-form{
+    align-content: center;
+
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
